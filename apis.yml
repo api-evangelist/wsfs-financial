@@ -1,0 +1,184 @@
+aid: wsfs-financial
+url: https://raw.githubusercontent.com/api-evangelist/wsfs-financial/refs/heads/main/apis.yml
+name: WSFS Financial
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Banking
+  - Wealth Management
+  - Trust Services
+  - Cash Logistics
+  - Commercial Banking
+description: >-
+  WSFS Financial Corporation is a multibillion-dollar financial services company
+  headquartered in Wilmington, Delaware. Its primary subsidiary WSFS Bank has
+  operated since 1832, making it one of the oldest banks in the United States.
+  As of March 31, 2026 the company reported $22.1 billion in assets and
+  $97.6 billion in assets under management and administration across 114 offices
+  in six states. Business lines include personal banking, small business and
+  commercial banking, treasury management, WSFS Mortgage, WSFS Wealth Management,
+  Bryn Mawr Trust (acquired 2022), WSFS Institutional Services, and the
+  Cash Connect ATM-as-a-service business that provides cash logistics and
+  vault cash to independent ATM operators. WSFS does not publish a public
+  developer portal, OpenAPI specifications, or SDKs; all APIs are bilateral
+  treasury / cash management integrations delivered through Enhanced Business
+  Online Banking, ACH/wire file feeds, and the Cash Connect partner portal.
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: wsfs-financial:treasury-management
+    name: WSFS Treasury Management
+    tags:
+      - Treasury Management
+      - Commercial Banking
+      - ACH
+      - Wires
+    humanURL: https://www.wsfsbank.com/commercial/cash-flow/treasury-management
+    properties:
+      - type: Documentation
+        url: https://www.wsfsbank.com/commercial/cash-flow/treasury-management
+    description: >-
+      Commercial treasury management surface covering deposit and liquidity
+      management, payables, receivables, ACH and wire origination, positive
+      pay, and fraud prevention. Delivered through Enhanced Business Online
+      Banking Plus with bilateral file integration; no public REST API or
+      developer portal is published.
+  - aid: wsfs-financial:cash-connect
+    name: Cash Connect
+    tags:
+      - Cash Logistics
+      - ATM Services
+      - Smart Safe
+    humanURL: https://www.wsfsbank.com/cash-connect
+    properties:
+      - type: Documentation
+        url: https://www.wsfsbank.com/cash-connect
+      - type: Portal
+        url: https://www.cash-connect.com
+    description: >-
+      Cash Connect is WSFS Bank's ATM-as-a-service and cash logistics business,
+      supplying vault cash, smart safe services, and managed services to
+      independent ATM operators and retailers. Access to the Cash Connect
+      portal is via the partner login at cash-connect.com; no public API,
+      OpenAPI specification, or SDK is documented.
+  - aid: wsfs-financial:bryn-mawr-trust
+    name: Bryn Mawr Trust
+    tags:
+      - Wealth Management
+      - Trust Services
+      - Private Banking
+    humanURL: https://www.bmt.com
+    properties:
+      - type: Documentation
+        url: https://www.bmt.com
+    description: >-
+      Bryn Mawr Trust, acquired by WSFS in 2022, provides financial and wealth
+      planning, investment management, trust and estate services, private
+      banking, and corporate retirement plans. Bryn Mawr Trust manages
+      approximately $6.73B; Bryn Mawr Trust Advisors $3.53B AUM and $905M AUA;
+      The Bryn Mawr Trust Company of Delaware $56.03B. No developer APIs are
+      published.
+  - aid: wsfs-financial:institutional-services
+    name: WSFS Institutional Services
+    tags:
+      - Institutional Services
+      - Corporate Trust
+      - Capital Markets
+    humanURL: https://www.wsfsbank.com/institutional-services
+    properties:
+      - type: Documentation
+        url: https://www.wsfsbank.com/institutional-services
+    description: >-
+      WSFS Institutional Services delivers global capital markets access,
+      SPV management, and corporate trust services with $30.43B under
+      administration as of March 31, 2026. Services are delivered through
+      relationship-managed engagements; no public developer API surface.
+common:
+  - type: Website
+    url: https://www.wsfsbank.com/
+  - type: Portal
+    url: https://www.wsfsbank.com/login
+  - type: Blog
+    url: https://www.wsfsbank.com/about/newsroom
+  - type: InvestorRelations
+    url: https://investors.wsfsbank.com
+  - type: Contact
+    url: https://www.wsfsbank.com/about/contact-us
+  - type: PrivacyPolicy
+    url: https://www.wsfsbank.com/privacy
+  - type: TermsOfService
+    url: https://www.wsfsbank.com/terms
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/wsfs-bank/
+  - type: YouTube
+    url: https://www.youtube.com/user/WSFSBank
+  - type: Subsidiaries
+    data:
+      - name: WSFS Bank
+        description: Primary banking subsidiary operating since 1832, headquartered at 500 Delaware Avenue, Wilmington, DE.
+      - name: WSFS Mortgage
+        description: Residential mortgage origination and servicing subsidiary.
+      - name: WSFS Wealth Management
+        description: Wealth advisory subsidiary serving high net worth clients in the WSFS footprint.
+      - name: Bryn Mawr Trust
+        description: Wealth, trust, and private banking franchise with 130+ year history; acquired by WSFS in 2022.
+      - name: Bryn Mawr Trust Company of Delaware
+        description: Delaware-chartered trust company with $56.03B under administration.
+      - name: WSFS Institutional Services
+        description: Corporate trust, global capital markets, and SPV management; $30.43B under administration.
+      - name: Cash Connect
+        description: ATM-as-a-service and vault cash logistics business serving independent ATM operators and retailers.
+  - type: Features
+    data:
+      - name: Enhanced Business Online Banking Plus
+        description: Commercial online banking platform bundled with premier accounts, providing ACH, wire, positive pay, and reporting.
+      - name: Xpress Deposit
+        description: Remote deposit capture for businesses to deposit checks via scanner or mobile.
+      - name: Smart Safe Solutions
+        description: Cash management hardware paired with provisional credit for retail deposits.
+      - name: Cash Connect Partner Portal
+        description: Web portal for independent ATM operators to order cash and manage vault cash deployments.
+      - name: Online and Mobile Banking
+        description: Personal and small business online and mobile banking with secure account access.
+      - name: ATM Network Access
+        description: Access to 80+ banking offices and one of the largest ATM networks in the Mid-Atlantic region.
+  - type: UseCases
+    data:
+      - name: Regional Personal Banking
+        description: Consumer checking, savings, mortgages, debit cards, and home equity for customers in DE, PA, NJ, FL, NV, and VA.
+      - name: Small Business Banking
+        description: Business checking, SBA lending, Express Loans, equipment finance, and merchant services for small business customers.
+      - name: Commercial Banking and Treasury
+        description: Commercial real estate financing, working capital, treasury management, and capital markets for middle-market businesses.
+      - name: Wealth and Trust Services
+        description: Financial planning, investment management, trust and estate services through Bryn Mawr Trust.
+      - name: ATM Cash Logistics
+        description: Vault cash supply, replenishment, and management for independent ATM operators via Cash Connect.
+      - name: Corporate Trust and Institutional Services
+        description: SPV management, corporate trust, and global capital markets administration.
+  - type: Integrations
+    data:
+      - name: ACH and Wire File Integration
+        description: Bilateral file-based ACH and wire origination integrations for commercial customers, typically via Enhanced Business Online Banking.
+      - name: Cash Connect Partner Integration
+        description: Partner integration for ATM operators with vault cash logistics; no public API documented.
+      - name: Merchant Services Integration
+        description: Card acceptance integrations through merchant services partners.
+  - type: Scale
+    data:
+      - name: Total Assets
+        value: $22.1 billion as of March 31, 2026
+      - name: Assets Under Management and Administration
+        value: $97.6 billion as of March 31, 2026
+      - name: Office Count
+        value: 114 offices across six states (PA 58, DE 38, NJ 14, FL 2, NV 1, VA 1)
+      - name: Founded
+        value: 1832
+      - name: NASDAQ Ticker
+        value: WSFS
+      - name: Headquarters
+        value: 500 Delaware Avenue, Wilmington, DE 19801
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
