@@ -95,6 +95,8 @@ apis:
       administration as of March 31, 2026. Services are delivered through
       relationship-managed engagements; no public developer API surface.
 common:
+  - type: DomainSecurity
+    url: security/wsfs-financial-domain-security.yml
   - type: Website
     url: https://www.wsfsbank.com/
   - type: Portal
