@@ -17,10 +17,6 @@ WSFS Financial Corporation is a multibillion-dollar financial services company h
 
 ## APIs
 
-### WSFS Treasury Management
-Commercial treasury management surface covering deposit and liquidity management, payables, receivables, ACH and wire origination, positive pay, and fraud prevention. Delivered through Enhanced Business Online Banking Plus with bilateral file integration; no public REST API or developer portal is published.
-
-**Human URL:** [https://www.wsfsbank.com/commercial/cash-flow/treasury-management](https://www.wsfsbank.com/commercial/cash-flow/treasury-management)
 
 #### Tags:
 
@@ -30,10 +26,6 @@ Commercial treasury management surface covering deposit and liquidity management
 
 - [Documentation](https://www.wsfsbank.com/commercial/cash-flow/treasury-management)
 
-### Cash Connect
-Cash Connect is WSFS Bank's ATM-as-a-service and cash logistics business, supplying vault cash, smart safe services, and managed services to independent ATM operators and retailers. Access to the Cash Connect portal is via the partner login at cash-connect.com; no public API, OpenAPI specification, or SDK is documented.
-
-**Human URL:** [https://www.wsfsbank.com/cash-connect](https://www.wsfsbank.com/cash-connect)
 
 #### Tags:
 
@@ -44,10 +36,6 @@ Cash Connect is WSFS Bank's ATM-as-a-service and cash logistics business, supply
 - [Documentation](https://www.wsfsbank.com/cash-connect)
 - [Portal](https://www.cash-connect.com)
 
-### Bryn Mawr Trust
-Bryn Mawr Trust, acquired by WSFS in 2022, provides financial and wealth planning, investment management, trust and estate services, private banking, and corporate retirement plans. Bryn Mawr Trust manages approximately $6.73B; Bryn Mawr Trust Advisors $3.53B AUM and $905M AUA; The Bryn Mawr Trust Company of Delaware $56.03B. No developer APIs are published.
-
-**Human URL:** [https://www.bmt.com](https://www.bmt.com)
 
 #### Tags:
 
@@ -57,10 +45,6 @@ Bryn Mawr Trust, acquired by WSFS in 2022, provides financial and wealth plannin
 
 - [Documentation](https://www.bmt.com)
 
-### WSFS Institutional Services
-WSFS Institutional Services delivers global capital markets access, SPV management, and corporate trust services with $30.43B under administration as of March 31, 2026. Services are delivered through relationship-managed engagements; no public developer API surface.
-
-**Human URL:** [https://www.wsfsbank.com/institutional-services](https://www.wsfsbank.com/institutional-services)
 
 #### Tags:
 

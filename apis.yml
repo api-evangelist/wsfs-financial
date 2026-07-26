@@ -2,7 +2,18 @@ aid: wsfs-financial
 url: https://raw.githubusercontent.com/api-evangelist/wsfs-financial/refs/heads/main/apis.yml
 name: WSFS Financial
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wsfs-financial.png
 tags:
   - Banking
   - Wealth Management
@@ -24,76 +35,9 @@ description: >-
   treasury / cash management integrations delivered through Enhanced Business
   Online Banking, ACH/wire file feeds, and the Cash Connect partner portal.
 created: '2026-05-23'
-modified: '2026-05-23'
+modified: '2026-07-25'
 specificationVersion: '0.19'
-apis:
-  - aid: wsfs-financial:treasury-management
-    name: WSFS Treasury Management
-    tags:
-      - Treasury Management
-      - Commercial Banking
-      - ACH
-      - Wires
-    humanURL: https://www.wsfsbank.com/commercial/cash-flow/treasury-management
-    properties:
-      - type: Documentation
-        url: https://www.wsfsbank.com/commercial/cash-flow/treasury-management
-    description: >-
-      Commercial treasury management surface covering deposit and liquidity
-      management, payables, receivables, ACH and wire origination, positive
-      pay, and fraud prevention. Delivered through Enhanced Business Online
-      Banking Plus with bilateral file integration; no public REST API or
-      developer portal is published.
-  - aid: wsfs-financial:cash-connect
-    name: Cash Connect
-    tags:
-      - Cash Logistics
-      - ATM Services
-      - Smart Safe
-    humanURL: https://www.wsfsbank.com/cash-connect
-    properties:
-      - type: Documentation
-        url: https://www.wsfsbank.com/cash-connect
-      - type: Portal
-        url: https://www.cash-connect.com
-    description: >-
-      Cash Connect is WSFS Bank's ATM-as-a-service and cash logistics business,
-      supplying vault cash, smart safe services, and managed services to
-      independent ATM operators and retailers. Access to the Cash Connect
-      portal is via the partner login at cash-connect.com; no public API,
-      OpenAPI specification, or SDK is documented.
-  - aid: wsfs-financial:bryn-mawr-trust
-    name: Bryn Mawr Trust
-    tags:
-      - Wealth Management
-      - Trust Services
-      - Private Banking
-    humanURL: https://www.bmt.com
-    properties:
-      - type: Documentation
-        url: https://www.bmt.com
-    description: >-
-      Bryn Mawr Trust, acquired by WSFS in 2022, provides financial and wealth
-      planning, investment management, trust and estate services, private
-      banking, and corporate retirement plans. Bryn Mawr Trust manages
-      approximately $6.73B; Bryn Mawr Trust Advisors $3.53B AUM and $905M AUA;
-      The Bryn Mawr Trust Company of Delaware $56.03B. No developer APIs are
-      published.
-  - aid: wsfs-financial:institutional-services
-    name: WSFS Institutional Services
-    tags:
-      - Institutional Services
-      - Corporate Trust
-      - Capital Markets
-    humanURL: https://www.wsfsbank.com/institutional-services
-    properties:
-      - type: Documentation
-        url: https://www.wsfsbank.com/institutional-services
-    description: >-
-      WSFS Institutional Services delivers global capital markets access,
-      SPV management, and corporate trust services with $30.43B under
-      administration as of March 31, 2026. Services are delivered through
-      relationship-managed engagements; no public developer API surface.
+apis: []
 common:
   - type: DomainSecurity
     url: security/wsfs-financial-domain-security.yml
@@ -181,6 +125,12 @@ common:
         value: WSFS
       - name: Headquarters
         value: 500 Delaware Avenue, Wilmington, DE 19801
+  - type: ProductPage
+    url: https://www.wsfsbank.com/cash-connect
+  - type: ProductPage
+    url: https://www.bmt.com
+  - type: ProductPage
+    url: https://www.wsfsbank.com/institutional-services
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
