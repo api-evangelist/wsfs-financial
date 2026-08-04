@@ -1,5 +1,47 @@
 # WSFS Financial (wsfs-financial)
 
+<!-- API-EVANGELIST-PROVENANCE:BEGIN -->
+> ### About this repository
+>
+> **This is not our API.** This repository is an independent, third-party profile of a company's
+> **publicly available** API surface, maintained by [API Evangelist](https://apievangelist.com).
+> API Evangelist does not operate, host, resell, or support this company's APIs, and is not
+> affiliated with or endorsed by the company unless stated on the profile.
+>
+> **Where the information came from.** Everything here is assembled from material a member of the
+> public can reach with a browser and no credentials — the company's own website, developer portal
+> and documentation, the specifications it publishes for public use (OpenAPI, AsyncAPI, JSON Schema,
+> `apis.json`, `llms.txt` and similar), its public repositories, and its public status, pricing and
+> changelog pages. **Nothing here is obtained by breaching a system, defeating an access control, or
+> using credentials of any kind.**
+>
+> **The rating is an independent assessment.** The Kin Score and Agent Readiness rating are
+> independently calculated scores of a company's *public* API artifacts, produced by API Evangelist
+> against a published rubric. They are not certifications, endorsements, security assessments, or
+> audits, and they score published artifacts — not the quality, safety, or security of the software.
+>
+> **Corrections, re-scores, and removal are free.** No partnership, contract, or purchase is
+> required, and you do not need to justify the request.
+>
+> - **Something wrong?** Open an issue on this repository, or email
+>   [info@apievangelist.com](mailto:info@apievangelist.com).
+> - **Published something new?** Ask for a re-score and we will re-run the rating.
+> - **Want the listing taken down?** Say so and we will honor it. The profile is reduced to your
+>   company name, a factual description, and a link to your own site, and the company is recorded as
+>   **unrated** — never scored zero for having asked.
+>
+> **Response times.** Acknowledgement within **one business day**; removal or restriction within
+> **two business days**; corrections and re-scores within **five business days**.
+>
+> **On a security or compliance team?** Email
+> [info@apievangelist.com](mailto:info@apievangelist.com) with *security* in the subject line and
+> you will get a person, not a form. We will tell you exactly which public URLs this profile was
+> built from so your team can see the same surface we did, and we will take the listing down on
+> request while you work through it.
+>
+> Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
+<!-- API-EVANGELIST-PROVENANCE:END -->
+
 WSFS Financial Corporation is a multibillion-dollar financial services company headquartered in Wilmington, Delaware. Its primary subsidiary WSFS Bank has operated since 1832, making it one of the oldest banks in the United States. As of March 31, 2026 the company reported $22.1 billion in assets and $97.6 billion in assets under management and administration across 114 offices in six states. Business lines include personal banking, small business and commercial banking, treasury management, WSFS Mortgage, WSFS Wealth Management, Bryn Mawr Trust (acquired 2022), WSFS Institutional Services, and the Cash Connect ATM-as-a-service business that provides cash logistics and vault cash to independent ATM operators. WSFS does not publish a public developer portal, OpenAPI specifications, or SDKs; all APIs are bilateral treasury / cash management integrations delivered through Enhanced Business Online Banking, ACH/wire file feeds, and the Cash Connect partner portal.
 
 **URL:** [https://www.wsfsbank.com/](https://www.wsfsbank.com/)
