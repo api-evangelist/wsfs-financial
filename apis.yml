@@ -1,5 +1,7 @@
 aid: wsfs-financial
 url: https://raw.githubusercontent.com/api-evangelist/wsfs-financial/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 name: WSFS Financial
 type: Index
 deliveryModel:
